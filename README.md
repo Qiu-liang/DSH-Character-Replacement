@@ -9,10 +9,10 @@
 它不改会话记录，不改模型输入，也不碰计费数据——只是让页面上的用量数字看起来更接地气。
 
 ## 效果
-<img width="426" height="26" alt="image" src="https://github.com/user-attachments/assets/176b8cb1-e675-4599-92e9-a9ea7db72050" />
+
 <img width="291" height="148" alt="image" src="https://github.com/user-attachments/assets/741c383c-11a1-4472-887d-5cde0290055e" />
 <img width="289" height="145" alt="image" src="https://github.com/user-attachments/assets/0541bcea-a6c7-492f-9cca-95bbcec137d0" />
-
+<img width="426" height="26" alt="image" src="https://github.com/user-attachments/assets/176b8cb1-e675-4599-92e9-a9ea7db72050" />
 
 ## 特性
 
