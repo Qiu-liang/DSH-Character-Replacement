@@ -1,0 +1,55 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# Node.js (this package has no dependencies or build step, but keep local installs out)
+node_modules/
+.pnpm-store/
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+coverage/
+.nyc_output/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+.npmrc
+*.pem
+*.key
+*.p12
+
+# Build output and local archives
+dist/
+build/
+tmp/
+.cache/
+*.tgz
+*.tar.gz
+*.zip
+
+# DSH local runtime state
+.dsh/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak

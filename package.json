@@ -2,8 +2,26 @@
   "name": "@local/rice-swap",
   "version": "1.0.0",
   "private": true,
-  "description": "Rewrites AI-usage wording only inside the session-statistics and usage areas of the Harness Web UI.",
+  "description": "Display-only DSH Web UI plugin that shows token/tok as 大米/斤 inside session-statistics and usage widgets.",
+  "license": "MIT",
+  "author": "Qiu-liang",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Qiu-liang/DSH-Character-Replacement.git"
+  },
+  "homepage": "https://github.com/Qiu-liang/DSH-Character-Replacement#readme",
+  "bugs": {
+    "url": "https://github.com/Qiu-liang/DSH-Character-Replacement/issues"
+  },
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "plugin",
+    "web-ui",
+    "token",
+    "usage"
+  ],
   "exports": {
     ".": "./index.js",
     "./client": "./client.js",
@@ -18,6 +36,9 @@
     "locale/*.json",
     "icon.svg"
   ],
+  "scripts": {
+    "check": "node --check index.js && node --check client.js && node -e \"for (const f of ['package.json','locale/en.json','locale/zh.json']) JSON.parse(require('node:fs').readFileSync(f, 'utf8')); console.log('JSON OK')\""
+  },
   "dsh": {
     "bundle": {
       "patch": "./cordis.patch.yml"
