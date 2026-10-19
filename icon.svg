@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Bowl of rice">
+  <defs>
+    <linearGradient id="rice-swap-bowl" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4aa3e8"/>
+      <stop offset="1" stop-color="#1f5f9c"/>
+    </linearGradient>
+  </defs>
+  <path d="M18 33c0-9 6-15 14-15s14 6 14 15z" fill="#f7e8c8"/>
+  <path d="M14 33h36a4 4 0 0 1 0 8H14a4 4 0 0 1 0-8z" fill="#2b7bc0"/>
+  <path d="M13 40h38c-1.6 11-8.9 18-19 18S14.6 51 13 40z" fill="url(#rice-swap-bowl)"/>
+  <path d="M25 29c1.5-2 3.5-3 6-3M33 29c1.5-2 3.5-3 6-3" fill="none" stroke="#e4cfa4" stroke-width="2" stroke-linecap="round"/>
+  <path d="M25 44h14" fill="none" stroke="#8fc6ef" stroke-width="2" stroke-linecap="round" opacity=".8"/>
+  <path d="M31 13c-1.8-3-1-5 1-7M37 14c-.4-3 1-5 3-6" fill="none" stroke="#f7e8c8" stroke-width="2" stroke-linecap="round" opacity=".85"/>
+</svg>

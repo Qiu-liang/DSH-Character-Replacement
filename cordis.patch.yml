@@ -1,0 +1,3 @@
+- insert:
+    - id: rice-swap
+      name: '@local/rice-swap'

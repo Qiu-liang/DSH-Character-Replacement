@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Rice Measurement Swap",
+    "description": "Rewrites the AI-usage wording only inside the session-statistics and usage areas: the full word becomes 大米 and the short form becomes 斤. Other areas are left untouched."
+  }
+}
