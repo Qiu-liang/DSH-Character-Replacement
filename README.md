@@ -9,17 +9,10 @@
 它不改会话记录，不改模型输入，也不碰计费数据——只是让页面上的用量数字看起来更接地气。
 
 ## 效果
+<img width="426" height="26" alt="image" src="https://github.com/user-attachments/assets/176b8cb1-e675-4599-92e9-a9ea7db72050" />
+<img width="291" height="148" alt="image" src="https://github.com/user-attachments/assets/741c383c-11a1-4472-887d-5cde0290055e" />
+<img width="289" height="145" alt="image" src="https://github.com/user-attachments/assets/0541bcea-a6c7-492f-9cca-95bbcec137d0" />
 
-| 位置 | 替换前 | 替换后 |
-| --- | --- | --- |
-| 统计胶囊 | `3 轮 4 步 · 45 tok/s` | `3 轮 4 步 · 45 斤/s` |
-| 用量胶囊 | `12.3k tok · 缓存命中 45%` | `12.3k 斤 · 缓存命中 45%` |
-| 用量弹窗标题 | `Token 用量` | `大米 用量` |
-| 统计弹窗明细 | `首 token 平均（TTFT）` | `首 大米 平均（TTFT）` |
-| 每轮用量触发 | `用量 12.3k tok` | `用量 12.3k 斤` |
-| 每轮用量详情 | `输出 8.1k tok` | `输出 8.1k 斤` |
-
-具体文案和数字以实际会话数据为准。
 
 ## 特性
 
